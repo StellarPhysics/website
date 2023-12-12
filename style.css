@@ -1,39 +1,27 @@
 *{
-    margin: 0px;
-    padding: 0px;
-}
-.option-box{
-    padding: 5px;
-    margin-right: 20px;
-    height: 100%;
-    border-radius: 50px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.option-box:hover{
-    background-color: #f2f2f2;
-}
-.youtube{
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 35%;
-}
-.taskbar{
-    position: fixed;
-    width: 100%;
+    margin: 0;
     padding: 0;
-    display: flex;
-    background-color: #ffffff;
 }
-body{
-    height: 1000px;
-    background-color: rgb(255, 255, 255);
+
+.header{
+
+    background-color: rgb(70, 70, 181);
+
 }
-.left{
-    margin-top: auto;
-    margin-bottom: auto;
-    width: auto;
-    display: flex;
-    padding: 10px;
-    
+.header{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.box{
+    background-color: rgb(164, 119, 163);
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    align-content: end;
+}
+.box:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
